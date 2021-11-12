@@ -1,0 +1,4 @@
+--Create a new table from an existing table
+
+create table NewTable as select * from Table;
+commit;
