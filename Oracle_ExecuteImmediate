@@ -1,0 +1,3 @@
+--Code snippet to execute an inline Oracle query
+
+execute immediate 'create table NewTable as select * from Table';
